@@ -13,7 +13,7 @@ body {
 .container {
     position: relative;
     text-align:left;
-    /* color: white; */
+    color: white;
   }
 
 
@@ -21,10 +21,12 @@ body {
 .topnav {
     background-color: rgb(198, 161, 58);
     overflow: hidden;
+    padding: 5px;
   }
   
   /* Style the links inside the navigation bar */
   .topnav a {
+    
     text-align:justify;
     float: left;
     color: #f2f2f2;
@@ -32,12 +34,14 @@ body {
     padding: 20px 130px;
     text-decoration: none;
     font-size: 17px;
+    
   }
   
   /* Change the color of links on hover */
   .topnav a:hover {
     background-color: rgb(225, 171, 77);
     color: rgb(114, 107, 107);
+    
   }
   
   /* Add a color to the active/current link */
